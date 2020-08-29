@@ -1,0 +1,67 @@
+.TableauTarifs {
+  margin-top: 20px;
+  margin-bottom: 40px;
+  width: 70%;
+  border-bottom: 1px solid #ddd;
+}
+
+.LigneTarif {
+  min-height: 40px;
+  border-top: 1px solid #ddd;
+  display: flex;
+  align-items: center;
+}
+
+.DivTarifEtCommentaire {
+  display: flex;
+  flex-flow: row;
+  width: 80%;
+  flex-wrap: wrap;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+.TarifLibelle {
+  font-size: 16px;
+  color: #a84819;
+  margin-right: 10px;
+}
+
+.TarifCommentaire {
+  font-size: 16px;
+  color: #666666;
+}
+
+.TarifMontant {
+  font-size: 16px;
+  color: #17815c;
+  text-align: right;
+  width: 20%;
+}
+
+/*----------MOBILE----------*/
+@media screen and (max-width: 768px) {
+  .TableauTarifs {
+    width: 100%;
+  }
+
+  .LigneTarif {
+    min-height: 50px;
+    border-top: 1px solid #ddd;
+    display: flex;
+    align-items: center;
+  }
+
+  .DivTarifEtCommentaire {
+    flex-flow: column;
+  }
+  .TarifLibelle {
+    font-size: 15px;
+    color: #a84819;
+    margin-right: 10px;
+  }
+
+  .TarifCommentaire {
+    font-size: 13px;
+    color: #666666;
+  }
+}

@@ -1,0 +1,32 @@
+.JourEcoleTennis {
+  margin-top: 30px;
+}
+
+.TableauParticipants {
+  margin-top: 10px;
+}
+
+.LignePartipant {
+  display: flex;
+  max-width: 80%;
+  height: 40px;
+  align-items: center;
+  border-top: #ddd solid 1px;
+}
+
+.Heure {
+  width: 60px;
+  font-size: 16px;
+  color: #17815c;
+}
+
+.Participant {
+  min-width: 400px;
+  font-size: 16px;
+  color: #a84819;
+}
+
+.Commentaire {
+  font-size: 16px;
+  color: #666666;
+}

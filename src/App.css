@@ -1,38 +1,122 @@
 .App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
+  background-image: linear-gradient(205deg, #e48c57 0%, #9f3e10 95%);
   min-height: 100vh;
+  font-family: "Lato", sans-serif;
+  color: #666;
   display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.ImageFond {
+  z-index: 0;
+  position: absolute;
+  top: 20px;
+  max-height: 95vh;
+  opacity: 30%;
+  animation: drop 1.5s ease;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+.Entete {
+  width: 100%;
+}
+
+.NavBarre {
+  z-index: 2;
+}
+
+.Pages {
+  background-color: white;
+  width: 80%;
+  max-width: 1100px;
+  border-radius: 4px;
+  min-height: 10vh;
+  margin: 20px auto;
+  border: 1px solid #dddddd;
+  box-shadow: 4px 4px 16px 0 rgba(0, 0, 0, 0.25);
+  z-index: 2;
+  padding: 20px 30px 30px 30px;
+}
+
+.BoutonMenuMobile {
+  position: absolute;
+  left: 20px;
+  top: 30px;
+  z-index: 2;
+  display: none;
+}
+
+/*----------LES LIENS----------*/
+a:link {
+  text-decoration: none;
+}
+
+/*----------LES POLICES----------*/
+.Titre {
+  font-weight: 900;
+  font-size: 35px;
+  color: #a54516;
+}
+
+.Titre2 {
+  font-weight: 700;
+  font-size: 28px;
+  color: #17815c;
+}
+
+.Titre3 {
+  font-weight: 700;
+  font-size: 20px;
+  color: #000;
+  margin-top: 10px;
+}
+
+.SousTitre {
+  font-weight: 400;
+  font-size: 13px;
+  color: #aaa;
+  font-style: italic;
+}
+
+.Texte {
+  font-weight: 400;
+  font-size: 16px;
+  color: #666;
+}
+
+/*----------LES ANIMATIONS----------*/
+@keyframes drop {
+  0% {
+    opacity: 0;
+    transform: translateY(-30px);
   }
-  to {
-    transform: rotate(360deg);
+  100% {
+    opacity: 30%;
+    transform: translateY(0px);
+  }
+}
+
+/*----------MOBILE----------*/
+@media screen and (max-width: 768px) {
+  .NavBarre {
+    display: none;
+  }
+
+  .Pages {
+    background-color: white;
+    width: 90%;
+    border-radius: 4px;
+    min-height: 100vh;
+    margin: 5% auto;
+    border: 1px solid #dddddd;
+    box-shadow: 4px 4px 16px 0 rgba(0, 0, 0, 0.25);
+    padding: 10px 10px 10px 10px;
+  }
+
+  .BoutonMenuMobile {
+    display: flex;
+    position: absolute;
+    left: 20px;
+    top: 30px;
+    z-index: 2;
   }
 }

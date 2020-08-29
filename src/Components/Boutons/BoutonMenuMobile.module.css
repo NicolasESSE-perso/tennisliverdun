@@ -1,0 +1,10 @@
+.Bouton {
+  width: 60px;
+  height: 60px;
+  background-color: #ffffff20;
+  border-radius: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 50;
+}

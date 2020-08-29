@@ -1,0 +1,11 @@
+.SelecteurJour {
+  background-color: #ededed;
+  height: 50px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.SelecteurJour:hover {
+  cursor: pointer;
+}

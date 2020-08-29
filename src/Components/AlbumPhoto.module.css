@@ -1,0 +1,29 @@
+.Album {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 20px;
+  justify-content: left;
+}
+
+.Photo {
+  width: 250px;
+  height: 188px;
+  margin: 5px;
+  border: 5px solid white;
+  box-shadow: 4px 4px 16px 0 rgba(0, 0, 0, 0.25);
+}
+
+/*----------MOBILE----------*/
+@media screen and (max-width: 768px) {
+  .Album {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 20px;
+    justify-content: space-evenly;
+  }
+
+  .Photo {
+    width: 124px;
+    height: 93px;
+  }
+}
