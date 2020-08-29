@@ -5,7 +5,7 @@ function ListeTarifs({ tarifs }) {
   return (
     <div className={MonStyle.TableauTarifs}>
       {tarifs.map((ligne, index) => (
-        <div className={MonStyle.LigneTarif}>
+        <div className={MonStyle.LigneTarif} key={index}>
           <div className={MonStyle.DivTarifEtCommentaire}>
             <div className={MonStyle.TarifLibelle}>{ligne.libelle}</div>
             <div className={MonStyle.TarifCommentaire}>{ligne.commentaire}</div>

@@ -24,12 +24,13 @@ export default function AlbumPhoto({ photos }) {
       ) : (
         ""
       )}
-      {photos.map((photo) => (
+      {photos.map((photo, index) => (
         <img
           className={Style.Photo}
           src={photo}
           alt=""
           onClick={(e) => afficherPhoto(e)}
+          key={index}
         />
       ))}
     </div>

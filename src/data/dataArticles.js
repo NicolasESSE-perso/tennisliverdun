@@ -3,7 +3,7 @@ let dataArticles = [
     titre: "Mise en état des terrains extérieurs",
     date: "23 mai 2020",
     texte:
-      "<b>Merci</b> à tous ceux qui sont venu participer à la mise en état des terrains extérieurs.",
+      "Merci à tous ceux qui sont venu participer à la mise en état des terrains extérieurs.",
     photos: [
       "Photos/Terres/S_IMG_5274.jpg",
       "Photos/Terres/S_IMG_5275.jpg",

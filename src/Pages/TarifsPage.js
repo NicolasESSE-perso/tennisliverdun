@@ -5,7 +5,6 @@ import Data from "../data/dataTarifs";
 
 export default function TarifsPages() {
   let tarifs = Data;
-  console.log(Data);
 
   return (
     <div className="Pages">

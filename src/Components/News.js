@@ -4,8 +4,6 @@ import Separateur from "./Separateur";
 import AlbumPhoto from "./AlbumPhoto";
 
 export default function News({ article }) {
-  console.log(article);
-
   return (
     <div className={Style.News}>
       <div className="Titre2">{article.titre}</div>

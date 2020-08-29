@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import Style from "./NavBarre.module.css";
 import { Link } from "react-router-dom";
 
@@ -6,7 +6,7 @@ import { Link } from "react-router-dom";
 function ItemMenu({ libelle, itemSelectionne, url, onClick }) {
   let monStyle = Style.NonSelectionne;
 
-  if (libelle === itemSelectionne) {
+  if (itemSelectionne === url) {
     monStyle = Style.Selectionne;
   } else {
     monStyle = Style.NonSelectionne;
@@ -24,30 +24,38 @@ function ItemMenu({ libelle, itemSelectionne, url, onClick }) {
 export default function NavBarre() {
   const [itemSelectionne, setItemSelectionne] = useState("News");
 
+  useEffect(() => {
+    //NIE je cherche la page courante si je rentre avec déjà une url
+    let page = window.location.pathname;
+    if (page !== "") {
+      setItemSelectionne(page);
+    }
+  }, []);
+
   return (
     <div className={Style.NavBarre}>
       <ItemMenu
         libelle="News"
         itemSelectionne={itemSelectionne}
-        onClick={(e) => setItemSelectionne("News")}
+        onClick={(e) => setItemSelectionne("/")}
         url="/"
       />
       <ItemMenu
         libelle="Ecole de tennis"
         itemSelectionne={itemSelectionne}
-        onClick={(e) => setItemSelectionne("Ecole de tennis")}
+        onClick={(e) => setItemSelectionne("/ecole")}
         url="/ecole"
       />
       <ItemMenu
         libelle="Adresse & Contact"
         itemSelectionne={itemSelectionne}
-        onClick={(e) => setItemSelectionne("Adresse & Contact")}
+        onClick={(e) => setItemSelectionne("/adresse")}
         url="/adresse"
       />
       <ItemMenu
         libelle="Tarifs"
         itemSelectionne={itemSelectionne}
-        onClick={(e) => setItemSelectionne("Tarifs")}
+        onClick={(e) => setItemSelectionne("/tarifs")}
         url="/tarifs"
       />
     </div>
