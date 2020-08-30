@@ -3,7 +3,7 @@ let dataArticles = [
     titre: "Mise en état des terrains extérieurs",
     date: "23 mai 2020",
     texte:
-      "Merci à tous ceux qui sont venu participer à la mise en état des terrains extérieurs.",
+      "Merci à tous ceux qui sont venus participer à la mise en état des terrains extérieurs.",
     photos: [
       "https://liverduntennisclub.s3.eu-central-1.amazonaws.com/TerresBattues/S_IMG_5274.jpg",
       "https://liverduntennisclub.s3.eu-central-1.amazonaws.com/TerresBattues/S_IMG_5275.jpg",

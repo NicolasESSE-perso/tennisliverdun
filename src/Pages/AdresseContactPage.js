@@ -14,7 +14,7 @@ export default function AdresseContactPage() {
 
       <div>
         <div className="Titre2">Contact</div>
-        <div className="Texte">Regis BALENDRET (C'est le président)</div>
+        <div className="Texte">Regis BALANDRET (C'est le président)</div>
         <div>06.81.85.19.73 / 06.65.49.00.17</div>
         <a href="mailto:liverdun.tennisclub@gmail.com">
           liverdun.tennisclub@gmail.com
