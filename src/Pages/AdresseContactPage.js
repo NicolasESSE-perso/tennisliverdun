@@ -14,37 +14,32 @@ export default function AdresseContactPage() {
 
       <div>
         <div className="Titre2">Contact</div>
-        <div className="Texte">Regis LEPRESIDENT</div>
-        <div>06 06 06 06 06</div>
-        <div>meilleurpresident@gmail.com</div>
-        <div>2 rue truc bidule du tennis 54460 LIVERDUN</div>
+        <div className="Texte">Regis BALENDRET (C'est le président)</div>
+        <div>06.81.85.19.73 / 06.65.49.00.17</div>
+        <a href="mailto:liverdun.tennisclub@gmail.com">
+          liverdun.tennisclub@gmail.com
+        </a>
+        <div>17, rue des pinsons - 54380 SAIZERAIS</div>
         <Separateur />
       </div>
 
       <div>
         <div className="Titre2">Court couvert</div>
-        <div className="Texte">
-          Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
-          eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
-          minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-          aliquip ex ea commodo consequat.
-        </div>
+        <div className="Texte">Allée de Bretagne 54460 LIVERDUN.</div>{" "}
+        <div className="Texte">Surface : Bois peint hyper rapide 🎾🚀☄️</div>
         <div className={MonStyle.illustrations}>
           <img className={MonStyle.image} src={ImageMapInterieur} alt="" />
           <img className={MonStyle.image} src={ImageCourtInterieur} alt="" />
         </div>
-
         <Separateur />
       </div>
 
       <div>
         <div className="Titre2">Courts extérieurs</div>
         <div className="Texte">
-          Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
-          eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
-          minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-          aliquip ex ea commodo consequat.
+          Rue Eugène Lérebourg 54460 LIVERDUN (suivre direction CAMPING)
         </div>
+        <div className="Texte">Surfaces : 2 Schistes • 3 Mateflex</div>
         <div className={MonStyle.illustrations}>
           <img className={MonStyle.image} src={ImageMapExterieur} alt="" />
           <img className={MonStyle.image} src={ImageCourtsExterieurs} alt="" />
