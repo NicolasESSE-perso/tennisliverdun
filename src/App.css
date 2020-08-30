@@ -12,6 +12,7 @@
   position: absolute;
   top: 20px;
   max-height: 95vh;
+  opacity: 0.3;
   animation: drop 1.5s ease;
 }
 
@@ -89,7 +90,7 @@ a:link {
     transform: translateY(-30px);
   }
   100% {
-    opacity: 100%;
+    opacity: 1;
     transform: translateY(0px);
   }
 }
