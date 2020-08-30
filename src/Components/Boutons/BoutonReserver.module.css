@@ -1,0 +1,58 @@
+.BoutonReserver {
+  height: 50px;
+  border: solid 2px white;
+  border-radius: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 50;
+  padding-left: 10px;
+  padding-right: 25px;
+}
+
+.BoutonReserver:hover {
+  background-color: #ffffff20;
+}
+
+.icone {
+  width: 50px;
+  height: 50px;
+}
+
+.texteBouton {
+  display: flex;
+  flex-direction: column;
+  justify-content: left;
+}
+
+.texteActionBouton {
+  font-size: 18px;
+  font-weight: 700;
+  color: white;
+}
+
+.texteSecondaire {
+  font-size: 13px;
+  font-weight: 500;
+  color: white;
+}
+
+@media screen and (max-width: 768px) {
+  .BoutonReserver {
+    background-color: #ffffff20;
+    height: 60px;
+    width: 60px;
+    border-radius: 8px;
+    border: none;
+    padding: 0px;
+  }
+
+  .icone {
+    width: 50px;
+    height: 50px;
+  }
+
+  .texteBouton {
+    display: none;
+  }
+}
