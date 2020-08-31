@@ -4,7 +4,11 @@ import IconeReserver from "../../Images/iconeReserver.svg";
 
 export default function Entete() {
   return (
-    <a href="https://ballejaune.com/club/tcliverdun" target="_blank">
+    <a
+      href="https://ballejaune.com/club/tcliverdun"
+      target="_blank"
+      rel="noopener noreferrer"
+    >
       <div className={Style.BoutonReserver}>
         <img className={Style.icone} src={IconeReserver} alt="" />
         <div className={Style.texteBouton}>

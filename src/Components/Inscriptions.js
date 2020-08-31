@@ -1,5 +1,6 @@
 import React from "react";
 import Style from "./Inscriptions.module.css";
+import BoutonTenUp from "../Components/Boutons/BoutonTenUp";
 
 export default function Inscriptions() {
   return (
@@ -19,6 +20,8 @@ export default function Inscriptions() {
       <div className="Texte"> de 10 H à 12 HLieu :salle</div>
       <div className="Titre3">• Lundi 7 septembre </div>
       <div> de 18 H à 20 H</div>
+      <br />
+      <BoutonTenUp />
     </div>
   );
 }
