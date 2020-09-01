@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from "react";
 import Style from "./NavBarre.module.css";
 import { Link } from "react-router-dom";
+import BoutonTenUp from "../Components/Boutons/BoutonTenUp";
 
 //NIE Composant permettant d'afficher le menu
 function ItemMenu({ libelle, itemSelectionne, url, onClick }) {
@@ -58,6 +59,7 @@ export default function NavBarre() {
         onClick={(e) => setItemSelectionne("/tarifs")}
         url="/tarifs"
       />
+      <BoutonTenUp largeur="130px" />
     </div>
   );
 }

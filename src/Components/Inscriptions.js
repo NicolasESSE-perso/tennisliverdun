@@ -21,7 +21,11 @@ export default function Inscriptions() {
       <div className="Titre3">• Lundi 7 septembre </div>
       <div> de 18 H à 20 H</div>
       <br />
-      <BoutonTenUp />
+      <BoutonTenUp
+        hauteur="50px"
+        largeur="280px"
+        texte="Inscription en ligne"
+      />
     </div>
   );
 }

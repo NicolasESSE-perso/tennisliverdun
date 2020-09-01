@@ -1,12 +1,10 @@
 .BoutonTenUp {
-  height: 50px;
-  border-radius: 6px;
+  border-radius: 4px;
+  height: 40px;
   display: flex;
   align-items: center;
   justify-content: center;
-  padding: 0px;
   background-color: #232346;
-  width: 300px;
   box-shadow: 4px 4px 16px 0 rgba(0, 0, 0, 0.25);
 }
 
@@ -15,7 +13,7 @@
 }
 
 .texteActionBouton {
-  font-size: 18px;
+  font-size: 15px;
   font-weight: 700;
   color: white;
 }

@@ -9,7 +9,7 @@
 }
 
 .NonSelectionne {
-  background: white;
+  background-color: white;
   border-radius: 4px;
   font-size: 18px;
   font-weight: 700;
@@ -19,8 +19,8 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  margin-left: 10px;
-  margin-right: 10px;
+  margin-left: 5px;
+  margin-right: 5px;
   text-decoration: none;
 }
 
@@ -33,9 +33,9 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  margin-left: 10px;
-  margin-right: 10px;
-  background: #9f3e10;
+  margin-left: 5px;
+  margin-right: 5px;
+  background-color: #9f3e10;
   color: white;
 }
 
