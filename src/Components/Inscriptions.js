@@ -1,8 +1,15 @@
 import React from "react";
-import Style from "./Inscriptions.module.css";
-import BoutonTenUp from "../Components/Boutons/BoutonTenUp";
+//import Style from "./Inscriptions.module.css";
+//import BoutonTenUp from "../Components/Boutons/BoutonTenUp";
 
 export default function Inscriptions() {
+  return (
+    <div>
+      La date des inscriptions sera affichée dès qu'elle sera fixée. Bonnes
+      vacances !{" "}
+    </div>
+  );
+  /*
   return (
     <div className={Style.Inscriptions}>
       <p className="Titre2">Inscriptions🎾🎾🎾</p>
@@ -28,4 +35,5 @@ export default function Inscriptions() {
       />
     </div>
   );
+  */
 }

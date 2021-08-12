@@ -1,4 +1,4 @@
-import React, { useEffect } from "react";
+import React from "react";
 import Style from "./BoutonTenUp.module.css";
 import LogoTenup from "../../Images/LogoTenUp.svg";
 

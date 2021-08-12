@@ -26,7 +26,12 @@ export default function AdresseContactPage() {
       <div>
         <div className="Titre2">Court couvert</div>
         <div className="Texte">Allée de Bretagne 54460 LIVERDUN.</div>{" "}
-        <div className="Texte">Surface : Bois peint hyper rapide 🎾🚀☄️</div>
+        <div className="Texte">
+          Surface : Bois peint hyper rapide{" "}
+          <span role="img" aria-label="fusée">
+            🎾🚀☄️
+          </span>
+        </div>
         <div className={MonStyle.illustrations}>
           <img className={MonStyle.image} src={ImageMapInterieur} alt="" />
           <img className={MonStyle.image} src={ImageCourtInterieur} alt="" />

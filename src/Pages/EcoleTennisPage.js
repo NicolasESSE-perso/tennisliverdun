@@ -16,25 +16,6 @@ export default function EcoleTennisPage() {
           septembre.
         </b>
       </p>
-      <li>Reprise des cours à partir du lundi 23 septembre 2020.</li>
-      <li>
-        {" "}
-        L’école de tennis fonctionne au rythme du calendrier scolaire, les cours
-        ne sont donc pas assurés pendant les vacances scolaires.{" "}
-      </li>
-      <li>
-        Le nombre de séances varie (de 28 minimum à 31 séances) en fonction des
-        jours fériés et des absences des professeurs.{" "}
-      </li>
-      <li>
-        Les cours se déroulent au court couvert du 23/09/2020 aux vacances de
-        printemps (soit au 24/04/2021)
-      </li>
-      <li>
-        Les cours se déroulent aux courts extérieurs ( paquis) à partir du
-        10/05/2021
-      </li>
-      <li>La fin des cours : samedi 19/06/2021</li>
       <Separateur />
       <Inscriptions />
       <Separateur />
