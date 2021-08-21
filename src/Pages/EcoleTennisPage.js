@@ -2,6 +2,7 @@ import React from "react";
 import Titre from "../Components/Titre";
 import Separateur from "../Components/Separateur";
 import Inscriptions from "../Components/Inscriptions";
+import CovidEnfant from "../Components/CovidEnfant";
 //import SelecteurJour from "../Components/SelecteurJour";
 //import JourEcoleTennis from "../Components/JourEcoleTennis";
 
@@ -18,6 +19,8 @@ export default function EcoleTennisPage() {
       </p>
       <Separateur />
       <Inscriptions />
+      <Separateur />
+      <CovidEnfant />
       <Separateur />
       Pour tout renseignement : enseignants.tennisclubliverdun@gmail.com, ou
       06.81.85.19.73

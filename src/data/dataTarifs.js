@@ -5,56 +5,50 @@ let groupesTarifs = [
     tarifs: [
       {
         libelle: "Mini-tennis",
-        commentaire: "(Adhésion comprise)",
-        montant: "90 €",
+        commentaire: "(Adhésion et licence de 12€ comprise)",
+        montant: "122 €",
       },
     ],
   },
   {
     groupe: "Jeunes",
-    texte:
-      "pour les enfants nés en 2003 et après. (accès au court couvert sous la responsabilité d'un adulte)",
+    texte: "pour les enfants nés en 2004 et après",
     tarifs: [
       {
-        libelle: "Licence jeune",
-        commentaire: "(Obligatoire)",
-        montant: "20 €",
+        libelle: "Ecole de tennis 1h",
+        commentaire: "(Adhésion et licence 20€ comprises)",
+        montant: "128 €",
       },
       {
-        libelle: "Accès courts couverts et extérieurs",
-        commentaire: "(sous la responsabilité d'un adulte)",
-        montant: "62 €",
-      },
-      {
-        libelle: "Accès court couvert uniquement",
-        commentaire: "(sous la responsabilité d'un adulte)",
-        montant: "34 €",
-      },
-      {
-        libelle: "Accès courts extérieurs uniquement",
-        commentaire: "",
-        montant: "28 €",
-      },
-      {
-        libelle: "Ecole de tennis",
-        commentaire: "(1heure)",
-        montant: "80 €",
-      },
-      {
-        libelle: "Ecole de tennis compétition",
-        commentaire: "(1heure 30)",
-        montant: "120 €",
+        libelle: "Ecole de tennis 1h30",
+        commentaire: "(Adhésion et licence 20€ comprises)",
+        montant: "168 €",
       },
       {
         libelle: "T-shirt Club Ecole de tennis ",
         commentaire: "(obligatoire)",
         montant: "15 €",
       },
+      {
+        libelle: "Short Club ",
+        commentaire: "",
+        montant: "10 €",
+      },
+      {
+        libelle: "Caution badge",
+        commentaire: "(pour accéder au court couvert en dehors de courts)",
+        montant: "10 €",
+      },
+      {
+        libelle: "Gourde Club",
+        commentaire: "",
+        montant: "Offerte",
+      },
     ],
   },
   {
     groupe: "Etudiants",
-    texte: "nés de 1996 à 2003",
+    texte: "nés de 1997 à 2004",
     tarifs: [
       {
         libelle: "Licence",
@@ -67,25 +61,20 @@ let groupesTarifs = [
         montant: "68 €",
       },
       {
-        libelle: "Accès court couvert uniquement",
-        commentaire: "",
-        montant: "34 €",
-      },
-      {
-        libelle: "Accès courts extérieurs uniquement",
-        commentaire: "",
-        montant: "34 €",
-      },
-      {
         libelle: "Cours confirmés, débutants...",
         commentaire: "(nécessite une adhésion)",
         montant: "130 €",
+      },
+      {
+        libelle: "Caution badge",
+        commentaire: "Nécessaire pour accéder au court couvert",
+        montant: "10 €",
       },
     ],
   },
   {
     groupe: "Adultes",
-    texte: "nés avant 2003",
+    texte: "nés avant 2004",
     tarifs: [
       {
         libelle: "Licence",
@@ -93,7 +82,7 @@ let groupesTarifs = [
         montant: "30 €",
       },
       {
-        libelle: "Adhésion adulte",
+        libelle: "Adhésion adulte courts extérieurs et intérieur",
         commentaire: "(Tarif couple 124 € par personne)",
         montant: "144 €",
       },
@@ -116,6 +105,11 @@ let groupesTarifs = [
         libelle: "T-shirt du club",
         commentaire: "",
         montant: "20 €",
+      },
+      {
+        libelle: "Caution badge",
+        commentaire: "Nécessaire pour accéder au court couvert",
+        montant: "10 €",
       },
     ],
   },
