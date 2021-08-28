@@ -8,7 +8,7 @@ export default function TarifsPages() {
 
   return (
     <div className="Pages">
-      <Titre texte={"Tarifs"} />
+      <Titre texte={"Tarifs 2022"} />
       {tarifs.map((groupeTarif, index) => (
         <BlocTarifs groupeTarif={groupeTarif} key={index} />
       ))}
