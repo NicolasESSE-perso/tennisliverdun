@@ -5,7 +5,7 @@ import BoutonTenUp from "../Components/Boutons/BoutonTenUp";
 export default function Inscriptions() {
   return (
     <div className={Style.Inscriptions}>
-      <p className="Titre2">Inscriptions 2021</p>
+      <p className="Titre2">Inscriptions 2022</p>
       <div className="Titre3">
         <span role="img" aria-label="ball">
           🎾
