@@ -1,7 +1,7 @@
 let groupesTarifs = [
   {
     groupe: "Mini-tennis",
-    texte: "pour les enfants nés de 2015 à 2017",
+    texte: "pour les enfants nés de 2016 à 2018",
     tarifs: [
       {
         libelle: "Mini-tennis",
@@ -12,7 +12,7 @@ let groupesTarifs = [
   },
   {
     groupe: "Jeunes",
-    texte: "pour les enfants nés en 2004 et après",
+    texte: "pour les enfants nés en 2005 et après",
     tarifs: [
       {
         libelle: "Ecole de tennis 1h",
@@ -48,7 +48,7 @@ let groupesTarifs = [
   },
   {
     groupe: "Etudiants",
-    texte: "nés de 1997 à 2004",
+    texte: "nés de 1998 à 2005",
     tarifs: [
       {
         libelle: "Licence",
@@ -74,7 +74,7 @@ let groupesTarifs = [
   },
   {
     groupe: "Adultes",
-    texte: "nés avant 2004",
+    texte: "nés avant 2005",
     tarifs: [
       {
         libelle: "Licence",

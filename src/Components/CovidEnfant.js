@@ -8,7 +8,7 @@ export default function CovidEnfant() {
           Questionnaire à remplir pour les mineurs (il remplace le certificat
           médical)
         </div>
-        <div>Il sera à remplir pour les inscriptions 2021</div>
+        <div>Il sera à remplir pour les inscriptions 2022</div>
       </div>
 
       <div style={{ marginTop: "30px" }}>
