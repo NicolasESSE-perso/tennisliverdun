@@ -6,38 +6,13 @@ export default function Inscriptions() {
   return (
     <div className={Style.Inscriptions}>
       <p className="Titre2">Inscriptions 2022 - 2023</p>
-      <div className="Titre3">
-        <span role="img" aria-label="ball">
-          🎾
-        </span>{" "}
-        Vendredi 2 septembre{" "}
-      </div>
-      <div className="Texte"> de 18 H à 20 H (terrain couvert)</div>
-      <br />
-      <div className="Titre3">
-        {" "}
-        <span role="img" aria-label="ball">
-          🎾
-        </span>{" "}
-        Samedi 3 septembre{" "}
-      </div>
-      <div className="Texte">à partir de 10 à 12 H (terrain couvert)</div>
-      <br />
-      <div className="Titre3">
-        <span role="img" aria-label="ball">
-          🎾
-        </span>{" "}
-        Journée des associations : le Dimanche 11 Septembre
-      </div>
-      <div className="Texte"> de 9 H à 17H (terrain couvert)</div>
-
-      <br />
-      <strong style={{ color: "#a54516" }}>
-        Pour les compétiteurs, votre inscription doit être faite avant le 5
-        septembre afin de pouvoir participer aux championnats par équipe.
-      </strong>
-      <br />
-
+      Bonjour, Nous vous proposons de venir nous retrouver pour la nouvelle
+      saison 2024, lors des jours d'inscription suivant: - Samedi 2 septembre de
+      10h à 12h - Vendredi 8 septembre de 18h à 20h. - Dimanche 10 septembre
+      lors de la journée des associations ( avec animations) de 9h30 à 17h. Les
+      inscriptions se dérouleront dans notre salle couverte derrière l'espace
+      Champagne. Pour tout besoin d'informations vous pouvez contacter Séveirne
+      au 06 81 85 19 73 Très sportivement. R BALANDRET Le Président.
       <br />
       <BoutonTenUp
         hauteur="50px"
